@@ -26,7 +26,7 @@ IoT-платформа для аренды пауэрбанков: два сер
 
 ### [deployment.md](powerapp/deployment.md): Руководство по развёртыванию
 
-Полный deployment guide: структура Docker-образов, Traefik как reverse proxy и load balancer, blue-green deployment, GitLab CI/CD pipeline, конфигурация окружения, фоновые процессы, rollback, troubleshooting.
+Инструкция по развёртыванию: Docker, CI/CD, конфигурация окружения, фоновые процессы.
 
 ### [authentication.md](powerapp/authentication.md): Система авторизации
 
