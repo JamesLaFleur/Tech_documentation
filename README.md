@@ -1,6 +1,6 @@
 # Примеры технической документации
 
-Примеры документации из разных проектов над которыми я работал. Охватывают несколько типов: архитектура и интеграция, API документация, deployment guide, описание модулей.
+Примеры документации из разных проектов над которыми я работал. Охватывают несколько типов: архитектура и интеграция, deployment guide, описание модулей.
 
 ---
 
@@ -10,8 +10,7 @@
 |-----|-------|
 | Архитектура и интеграция | [WebSocket-интеграция](powerapp/websockets.md), [Система авторизации](powerapp/authentication.md) |
 | Deployment Guide | [Руководство по развёртыванию](powerapp/deployment.md) |
-| API Reference | [MindBox: заказы](4fresh/mindbox-orders.md), [Price Service](4fresh/price-service.md) |
-| Описание модулей | [KeyCloak-тема](online-school/keycloak-theme.md), [KeyCloak + Nuxt.js](online-school/keycloak-frontend.md) |
+| Описание модулей | [KeyCloak-тема](online-school/keycloak-theme.md) |
 
 ---
 
@@ -35,22 +34,6 @@ IoT-платформа для аренды пауэрбанков: два сер
 
 ---
 
-## 4fresh
-
-Российский eco/organic интернет-магазин. Микросервисная архитектура на PHP, интеграция с 1С и внешним CRM Mindbox.
-
-**Стек:** PHP, RabbitMQ, Redis, PostgreSQL, 1С.
-
-### [mindbox-orders.md](4fresh/mindbox-orders.md): MindBox, модуль заказов
-
-API Reference: 5 операций (получение списка, расчёт корзины, создание заказа, изменение статуса), полные схемы входных и выходных данных с таблицами параметров и JSON-структурами.
-
-### [price-service.md](4fresh/price-service.md): Price Service API
-
-Документация модуля цен: эндпоинты, входные/выходные данные, логика синхронизации с 1С, health check.
-
----
-
 ## Online-school
 
 Образовательная платформа с системой курсов, уроков, тестирования и виджетов.
@@ -59,8 +42,4 @@ API Reference: 5 операций (получение списка, расчёт
 
 ### [keycloak-theme.md](online-school/keycloak-theme.md): Кастомная тема KeyCloak
 
-Docker-конфигурация, Webpack-сборка, FreeMarker + Vue.js шаблоны, локализация, flow регистрации с мультишаговой формой.
-
-### [keycloak-frontend.md](online-school/keycloak-frontend.md): Интеграция KeyCloak с Nuxt.js
-
-Пакет `@nuxtjs/auth-next`, стратегия OpenIDConnect, кастомная схема авторизации, получение ролей из JWT-токена.
+Docker-конфигурация, Webpack-сборка, FreeMarker + Vue.js шаблоны, переменные окружения, flow регистрации с многошаговой формой.
