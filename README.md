@@ -11,6 +11,7 @@
 | Архитектура и интеграция | [WebSocket-интеграция](powerapp/websockets.md), [Система авторизации](powerapp/authentication.md) |
 | Deployment Guide | [Руководство по развёртыванию](powerapp/deployment.md) |
 | Описание модулей | [KeyCloak-тема](online-school/keycloak-theme.md) |
+| API документация | [RoleModule](online-school/role.md) |
 
 ---
 
@@ -43,3 +44,7 @@ IoT-платформа для аренды пауэрбанков: два сер
 ### [keycloak-theme.md](online-school/keycloak-theme.md): Кастомная тема KeyCloak
 
 Docker-конфигурация, Webpack-сборка, FreeMarker + Vue.js шаблоны, переменные окружения, flow регистрации с многошаговой формой.
+
+### [role.md](online-school/role.md): RoleModule API
+
+Документация модуля управления ролями: описание ролей платформы, CRUD операции, входные и выходные данные.
